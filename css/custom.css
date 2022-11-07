@@ -1,0 +1,59 @@
+.col-sm-4{
+    padding-top: 1rem;
+}
+
+.card.order-view{
+    width: 27rem;
+    height: 15rem;
+}
+
+.card.order-view .card-body{
+    padding: 0.5rem;
+}
+
+.card.order-view .card-title{
+    padding: 0.5rem;
+    padding-left: 2rem;
+    font-family: 'consolas';
+}
+
+.card.order-view .card-header{
+    background-color: transparent;
+    padding: 0.5rem;
+    border-bottom: none;
+}
+
+.card.order-view .card-header .recyclable{
+    float: right;
+    background-color: gainsboro;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.card.order-view .card-header span{
+    background-color: gainsboro;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
+.container-my-5{
+    padding: 5rem;
+}
+
+.options{
+    background-color: none;
+    float: right;
+    border-radius: 10%;
+}
+
+.options img{
+    height: 40px;
+    width: 40px;
+}
+
+.card.order-view .address{
+    color:darkgrey;
+    padding-left: 0.5rem;
+    font-family: Helvetica;
+}

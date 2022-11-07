@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>E- Waste</title>
+
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+    <style>
+        .col-sm-4{
+            padding-top: 1rem;
+            
+        }
+
+        .card.order-view{
+            width: 27rem;
+            height: 12.5rem;
+        }
+
+        .card.order-view .card-body{
+            padding: 0.5rem;
+        }
+
+        .card.order-view .card-title{
+            padding: 0.5rem;
+            padding-left: 2rem;
+            font-family: 'consolas';
+        }
+
+        .card.order-view .card-header{
+            background-color: transparent;
+            padding: 0.5rem;
+            border-bottom: none;
+        }
+
+        .card.order-view .card-header .recyclable{
+            float: right;
+            background-color: gainsboro;
+            padding: 0.5rem;
+            border-radius: 0.4rem;
+        }
+
+        .card.order-view .card-header span{
+            background-color: gainsboro;
+            padding: 0.5rem;
+            border-radius: 0.4rem;
+        }
+
+
+        .container-my-5{
+            padding: 5rem;
+        }
+
+        .options{
+            background-color: none;
+            float: right;
+            border-radius: 10%;
+        }
+
+        .options img{
+            height: 40px;
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body id="section_1">
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        Vellore Institute of Technology, Vellore
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:info@company.com">
+                            ewaste@company.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" class="logo img-fluid" alt="e-waste">
+                <span>
+                    E-Waste Platform
+                    <small>Non-profit Organization</small>
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_2">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_3">Collections</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_4">Volunteer</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="order.html">Orders</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_6">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="sell.html">Dispose/Sell</a>
+                    </li>
+
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-my-5">
+            <div class=".page-header">
+                <h3>View all Orders</h3>
+            </div>
+            <div class="row">
+    
+                <div class="col-sm-4">
+                    <div class="card order-view">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <span>ABC Management Enterprises</span>
+                                <span class="recyclable" data-toggle="tooltip" data-placement="top" title="Non-Recyclable">
+                                    <img src="icons/non-recyclable.svg" height="30px" width="30px">
+                                </span>                            
+                            </div>
+                            
+                            <h4 class="card-title">25 kgs</h4>
+                            <p class="card-text">
+                                <div class="address" style="float: left;">
+                                    <span>15, ABC street,<br>Chennai, Tamil Nadu<br>605012</span>
+                                </div>
+                                <div class="row" style="float:right;">
+                                    <div class="col">
+                                        <span class="options" data-toggle="tooltip" title="Requires collection service"><img class="options" src="icons/collection-service.svg"></span>
+                                    </div>
+                                    <div class="col">
+                                        <span class="options" data-toggle="tooltip" title="Additional Assistance"><img  src="icons/assistance.svg"></span>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Order placed on 2nd October 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
